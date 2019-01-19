@@ -22,7 +22,7 @@ class App extends Component {
   }
 
 
-  // REMOVES animation CSS 
+//animation added
   removeAnimation = () => {
     // Grab the text at the top middle of the page
     let element = document.getElementById("animate-this");
