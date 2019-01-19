@@ -1,21 +1,19 @@
-import React from 'react';
-import { Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Button } from 'reactstrap';
 
-const Example = (props) => {
+import React from "react";
+
+///change to simple 
+
+function Card({ clickHandler, id, image, name }) {
   return (
-    <div>
-      <Card>
-        <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-          <Button>Button</Button>
-        </CardBody>
-      </Card>
+    <div className="card-holder">
+      <img
+        src={image}
+        alt={name}
+        className="card-select grow img-thumbnail m-2 pointer"
+        onClick={() => clickHandler(id)}
+      />
     </div>
   );
-};
+}
 
-export default Example;
+export default Card;
