@@ -148,11 +148,7 @@ class App extends Component {
 
  
   
-////fix comments
 
-
-
-  // Render the App component on the page
   render() {
     const { message, score, tiles, topScore } = this.state;
     return (
