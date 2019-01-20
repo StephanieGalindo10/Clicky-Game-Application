@@ -56,12 +56,12 @@
 }
 
 .tp-text a {
-  color: rgb(35, 52, 4);
+  color: rgb(40, 28, 1);
   text-shadow: -1px -1px rgb(55, 34, 7), 1px -1px 0 red, -1px 1px 0 #000;
 }
 
 .tp-text a:hover {
-  color:red;
+  color:black;
   text-shadow: -1px -1px 0 brown,  #000;
 }
 
