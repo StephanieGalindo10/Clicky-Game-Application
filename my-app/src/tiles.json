@@ -13,35 +13,35 @@
         "name": "Bloody Red Head",
         "image":
 
-          "/images/bloody-red-nurse.jpg",
+          "/images/bloodynurse.gif",
           "clicked": false
       },
     {
       "id": 3,
       "name": "Eileen",
       "image":
-        "/images/Eileen-Galvin-Silent-Hill.png",
+        "/images/eileen-galvin.gif",
         "clicked": false
     },
     {
       "id": 4,
       "name": "PyrimidHead",
       "image":
-        "/images/pyrimadehead.gif",
+        "/images/pyramidhead.gif",
         "clicked": false
     },
     {
       "id": 5,
       "name": "Maria",
       "image":
-        "/images/Maria-Silent-Hill.jpg",
+        "/images/maria.gif",
         "clicked": false
     },
     {
       "id": 6,
       "name": "Heather",
       "image":
-        "/images/heather-mason-silent-hill.jpg",
+        "/images/heather.gif",
         "clicked": false
     },
     {
@@ -55,7 +55,7 @@
       "id": 8,
       "name": "James",
       "image":
-        "/images/James_Sunderland-Silent-Hill.png",
+        "/images/james.gif",
         "clicked": false
     },
     {
@@ -67,16 +67,16 @@
     },
     {
       "id": 10,
-      "name": "Dahila",
+      "name": "Robbie",
       "image":
-        "/images/Dahlia-Silent-Hill.png",
+        "/images/robbierabbit.gif",
         "clicked": false
     },
     {
       "id": 11,
       "name": "Douglas",
       "image":
-        "/images/Dahlia-Silent-Hill.png",
+        "/images/douglas.gif",
         "clicked": false
     },
     {
