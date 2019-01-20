@@ -10,7 +10,7 @@ function Navbar({ message, score, topScore }) {
             href="/"
           >
             Silent Hill  <br />
-            MEMORY GAME Missng Memories
+            MEMORY GAME Missing Memories
           </a>
         </li>
         <li

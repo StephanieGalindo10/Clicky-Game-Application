@@ -32,43 +32,43 @@
 }
 
 .bg-header {
-  background: url('https://images6.alphacoders.com/339/339517.jpg');
+  background: url('http://media.giphy.com/media/172b3L012imYM/giphy.gif');
 }
 
 .card-holder img {
-  height: 200px;
+  height: 205px;
   width: 200px;
 }
 
 .colors {
   background-color: #634643;
-  color: #58F85C;
+  color: rgb(25, 50, 148);
   text-shadow: 5px 5px 5px #000;
 }
 
 .colors a {
-  color: #58F85C;
+  color: gray;
 }
 
 .tp-text {
-  color: #634643;
-  text-shadow: -1px -1px 0 #58F85C, 1px -1px 0 #58F85C, -1px 1px 0 #58F85C, 1px 1px 0 #58F85C, 4px 3px 0.5px #000;
+  color: rgb(88, 14, 4);
+  text-shadow: -1px -1px 0 ye, 1px -1px 1px 0 rgb(19, 8, 8), 4px 3px 0.5px #000;
 }
 
 .tp-text a {
-  color: #634643;
-  text-shadow: -1px -1px 0 #58F85C, 1px -1px 0 #58F85C, -1px 1px 0 #58F85C, 1px 1px 0 #58F85C, 4px 3px 0.5px #000;
+  color: rgb(35, 52, 4);
+  text-shadow: -1px -1px rgb(55, 34, 7), 1px -1px 0 red, -1px 1px 0 #000;
 }
 
 .tp-text a:hover {
-  color: #58F85C;
-  text-shadow: -1px -1px 0 #634643, 1px -1px 0 #634643, -1px 1px 0 #634643, 1px 1px 0 #634643, 4px 3px 0.5px #000;
+  color:red;
+  text-shadow: -1px -1px 0 brown,  #000;
 }
 
 .neon {
   font-family: 'Dawning of a New Day', Helvetica, Arial, sans-serif;
   color: #fff;
-  text-shadow: 0 0 5px #fff, 0 0 10px rgb(255, 204, 204), 0 0 20px #fd0054, 0 0 30px #fd0054, 0 0 40px #fd0054, 0 0 55px #fd0054, 0 0 75px #fd0054;
+  text-shadow: 0 0 5px #fff, 0 0 10px rgb(255, 204, 204), 0 0 20px yellow, 0 0 30px #d7fd00, 0 0 40px #a3c722, 0 0 55px #aeac31, 0 0 75px #fdb500;
   text-align: center;
 }
 
@@ -76,16 +76,7 @@
   background: rgba(99, 70, 67, 0.8);
 }
 
-.footer-100 {
-  bottom: 0;
-  height: 8vh;
-  left: 0;
-  width: 100%;
-}
 
-.footer-mgn {
-  top: 5vh;
-}
 
 .grow {
   transition: all .1s ease-in-out;
@@ -112,9 +103,9 @@
 }
 
 .lodge {
-  background: #EB5757;
-  background: -webkit-linear-gradient(to right, #000000, #EB5757);
-  background: linear-gradient(to right, #000000, #EB5757);
+  background: rgb(1, 29, 1);
+  background: -webkit-linear-gradient(to right, #000000, rgb(0, 0, 0));
+  background: url('https://images6.alphacoders.com/339/339517.jpg');;
 }
 
 .main-content {
@@ -122,7 +113,7 @@
 }
 
 .red {
-  color: red;
+  color: rgb(62, 4, 4);
 }
 
 .nav-font {
@@ -141,7 +132,7 @@
 }
 
 .nav-shadow {
-  box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+  box-shadow: 0 14px 28px rgb(63, 4, 4), 0 10px 10px rgba(21, 2, 2, 0.22);
 }
 
 .nav-width {
@@ -157,7 +148,7 @@
 }
 
 .padding-main {
-  padding-bottom: 5vh;
+  padding-bottom: 6vh;
 }
 
 .pointer {
@@ -169,7 +160,7 @@
 }
 
 .card-select:hover {
-  box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
+  box-shadow: 0 3px 6px rgb(87, 12, 12), 0 3px 6px rgba(0, 0, 0, .23);
 }
 
 .h-100vh {
@@ -245,13 +236,13 @@
   animation: jello-vertical 1.3s both;
 }
 
-/* Flicker */
+
 
 @-webkit-keyframes flicker-1 {
-  0%, 100% {
-    opacity: 1;
+  0%, 80% {
+    opacity: 2;
   }
-  41.99% {
+  50.00% {
     opacity: 1;
   }
   42% {
@@ -364,12 +355,7 @@
   -webkit-animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
   animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
 }
-
-/* --------------------------------------------------------------------------------------------------------  
-* 
-*                                                MEDIA QUERIES
-* 
-* -------------------------------------------------------------------------------------------------------- */
+----------------------------- 
 
 @media screen and (max-width: 768px) {
   .nav-font {
@@ -389,11 +375,11 @@
     padding: 15vh 0 5vh 0;
   }
   .tp-text {
-    color: #58F85C;
+    color: rgb(0, 33, 2);
     text-shadow: none;
   }
   .tp-text a {
-    color: #58F85C;
+    color: rgb(1, 19, 1);
     text-shadow: none;
   }
 }

@@ -1,0 +1,90 @@
+
+
+[
+    {
+      "id": 1,
+      "name": "Alessa",
+      "image":
+        "/images/Alyssa .gif",
+      "clicked": false
+    },
+    {
+        "id": 2,
+        "name": "Bloody Red Head",
+        "image":
+
+          "/images/bloody-red-nurse.jpg",
+          "clicked": false
+      },
+    {
+      "id": 3,
+      "name": "Eileen",
+      "image":
+        "/images/Eileen-Galvin-Silent-Hill.png",
+        "clicked": false
+    },
+    {
+      "id": 4,
+      "name": "PyrimidHead",
+      "image":
+        "/images/pyrimadehead.gif",
+        "clicked": false
+    },
+    {
+      "id": 5,
+      "name": "Maria",
+      "image":
+        "/images/Maria-Silent-Hill.jpg",
+        "clicked": false
+    },
+    {
+      "id": 6,
+      "name": "Heather",
+      "image":
+        "/images/heather-mason-silent-hill.jpg",
+        "clicked": false
+    },
+    {
+      "id": 7,
+      "name": "Silent Hill Nurses",
+      "image":
+        "/images/nurses.gif",
+        "clicked": false
+    },
+    {
+      "id": 8,
+      "name": "James",
+      "image":
+        "/images/James_Sunderland-Silent-Hill.png",
+        "clicked": false
+    },
+    {
+      "id": 9,
+      "name": "Cybil Cop",
+      "image":
+        "/images/cybil.gif",
+        "clicked": false
+    },
+    {
+      "id": 10,
+      "name": "Dahila",
+      "image":
+        "/images/Dahlia-Silent-Hill.png",
+        "clicked": false
+    },
+    {
+      "id": 11,
+      "name": "Douglas",
+      "image":
+        "/images/Dahlia-Silent-Hill.png",
+        "clicked": false
+    },
+    {
+      "id": 12,
+      "name": "Rose Da Silva",
+      "image":
+        "/images/Rose Da Silva.gif",
+        "clicked": false
+    }
+]
+  

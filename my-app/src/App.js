@@ -38,7 +38,6 @@ class App extends Component {
     }
   };
 
-  // ADDS animation CSS class
   addAnimation = isCorrect => {
     // Grab the text at the top middle of the page
     let element = document.getElementById("animate-this");
@@ -54,7 +53,7 @@ class App extends Component {
     }
   };
 
-  // TOGGLES the CSS class for animation
+  
   toggleAnimation = isCorrect => {
     // If the guess is correct...
     if (isCorrect) {
@@ -72,17 +71,10 @@ class App extends Component {
     }
   };
 
-  /*
-   *  ----------------------------------------------------------------------------------
-   *
-   *  Functions for game logic
-   *
-   *  ----------------------------------------------------------------------------------
-   */
-
-  // Main click handler function
+  
+  
   handleSaveClick = id => {
-    // Variable to hold the tiles state.
+    
     const tilez = this.state.tiles;
     // Search through character tiles to find the one that matches the clicked id.
     const tileClicked = tilez.filter(tile => tile.id === id);
@@ -91,12 +83,11 @@ class App extends Component {
     if (!tileClicked[0].clicked) {
       // ...set it to now be clicked
       tileClicked[0].clicked = true;
-      // ...call this function to register the correct guess
+      
       this.handleCorrectClick();
-      // ...add the bouncy animation for correct guess
+      
       this.toggleAnimation(true);
 
-      // ... randomize character tiles
       this.randomizeCharacters(tilez);
 
       this.setState({ tilez });
@@ -165,7 +156,8 @@ class App extends Component {
           message={message}
         />
         <Header className="bg-header row" />
-
+<div style= {{backgroundImage:"/images/silenthillwelcome.jpg"}}>
+  
         <div className="d-flex justify-content-center main-content mx-auto padding-main flex-wrap row">
           {tiles.map(({ id, name, image, clicked }) => (
             <Card
@@ -178,9 +170,10 @@ class App extends Component {
             />
           ))}
         </div>
-
+</div>
         <Footer className="footer-mgn row" />
       </div>
+      
     );
   }
 }
